@@ -4,7 +4,9 @@ import { useQuery } from '@tanstack/react-query';
 import { useRouter } from 'expo-router';
 import { useAuthStore } from '@/store/auth';
 import { useRepositories } from '@/services/repositories/RepositoryContext';
+import { useRestaurants } from '@/hooks/useRestaurants';
 import type { JournalEntry } from '@/types/journal';
+import type { Restaurant } from '@/types/restaurant';
 import { formatVisitDate } from '@/utils/date';
 
 export default function JournalScreen() {
@@ -23,6 +25,8 @@ function JournalList({ paddingBottom, paddingTop }: { paddingBottom: number; pad
     queryFn: () => journal.getAll(),
     staleTime: 60 * 1000,
   });
+  const { data: restaurants = [] } = useRestaurants();
+  const restaurantMap = Object.fromEntries(restaurants.map((r) => [r.id, r]));
 
   return (
     <View className="flex-1 bg-off-white" style={{ paddingTop }}>
@@ -50,21 +54,28 @@ function JournalList({ paddingBottom, paddingTop }: { paddingBottom: number; pad
             </View>
           }
           ItemSeparatorComponent={() => <View className="h-px bg-border" />}
-          renderItem={({ item }) => <JournalRow entry={item} />}
+          renderItem={({ item }) => (
+            <JournalRow entry={item} restaurant={restaurantMap[item.restaurantId] ?? null} />
+          )}
         />
       )}
     </View>
   );
 }
 
-function JournalRow({ entry: e }: { entry: JournalEntry }) {
+function JournalRow({ entry: e, restaurant }: { entry: JournalEntry; restaurant: Restaurant | null }) {
   return (
     <Pressable className="py-3.5 active:opacity-70">
       <View className="flex-row items-center justify-between">
         <View className="flex-1 mr-3">
           <Text className="text-base font-semibold text-charcoal" numberOfLines={1}>
-            {e.restaurantId}
+            {restaurant?.name ?? e.restaurantId}
           </Text>
+          {restaurant && (
+            <Text className="text-xs text-charcoal-light">
+              {[restaurant.neighborhood, restaurant.city].filter(Boolean).join(' · ')}
+            </Text>
+          )}
           {e.notes && (
             <Text className="text-sm text-charcoal-light mt-0.5" numberOfLines={2}>
               {e.notes}

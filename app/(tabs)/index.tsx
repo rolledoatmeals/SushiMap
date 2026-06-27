@@ -8,10 +8,10 @@ import type { Restaurant } from '@/types/restaurant';
 import { useState } from 'react';
 
 const NYC: Region = {
-  latitude: 40.7128,
-  longitude: -74.006,
-  latitudeDelta: 0.25,
-  longitudeDelta: 0.25,
+  latitude: 40.82,
+  longitude: -73.98,
+  latitudeDelta: 0.55,
+  longitudeDelta: 0.55,
 };
 
 export default function MapScreen() {

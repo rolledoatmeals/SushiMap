@@ -8,14 +8,17 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useRestaurantSearch } from '@/hooks/useRestaurants';
+import { useRestaurants, useRestaurantSearch } from '@/hooks/useRestaurants';
 import type { Restaurant } from '@/types/restaurant';
 import { isRestaurantOpenNow } from '@/utils/geo';
 
 export default function ExploreScreen() {
   const insets = useSafeAreaInsets();
   const [query, setQuery] = useState('');
-  const { data: results = [], isLoading } = useRestaurantSearch(query);
+  const { data: allRestaurants = [], isLoading: allLoading } = useRestaurants();
+  const { data: searchResults = [], isLoading: searchLoading } = useRestaurantSearch(query);
+  const results = query.trim().length > 0 ? searchResults : allRestaurants;
+  const isLoading = query.trim().length > 0 ? searchLoading : allLoading;
 
   return (
     <View className="flex-1 bg-off-white" style={{ paddingTop: insets.top }}>
@@ -55,7 +58,7 @@ export default function ExploreScreen() {
             <View className="items-center py-16">
               <Text className="text-3xl mb-3">🍣</Text>
               <Text className="text-charcoal-light text-base text-center">
-                {query ? 'No restaurants found' : 'Start typing to search'}
+                {query ? 'No restaurants found' : 'No restaurants yet'}
               </Text>
             </View>
           }
