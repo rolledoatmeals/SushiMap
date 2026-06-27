@@ -1,29 +1,76 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import {
   View,
   Text,
   TextInput,
   FlatList,
   Pressable,
+  ScrollView,
   ActivityIndicator,
 } from 'react-native';
 import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useRestaurants, useRestaurantSearch } from '@/hooks/useRestaurants';
+import { useRestaurants } from '@/hooks/useRestaurants';
 import type { Restaurant } from '@/types/restaurant';
 import { isRestaurantOpenNow } from '@/utils/geo';
+
+type FilterKey = 'open_now' | 'manhattan' | 'brooklyn' | 'queens' | 'nj';
+
+const FILTERS: { key: FilterKey; label: string }[] = [
+  { key: 'open_now', label: 'Open Now' },
+  { key: 'manhattan', label: 'Manhattan' },
+  { key: 'brooklyn', label: 'Brooklyn' },
+  { key: 'queens', label: 'Queens' },
+  { key: 'nj', label: 'NJ' },
+];
+
+function matchesFilter(r: Restaurant, active: Set<FilterKey>): boolean {
+  if (active.has('open_now') && !isRestaurantOpenNow(r.hours)) return false;
+  if (active.has('manhattan') && r.regionId !== 'region-nyc-manhattan') return false;
+  if (active.has('brooklyn') && r.regionId !== 'region-nyc-brooklyn') return false;
+  if (active.has('queens') && r.regionId !== 'region-nyc-queens') return false;
+  if (active.has('nj') && r.regionId !== 'region-nj') return false;
+  return true;
+}
 
 export default function ExploreScreen() {
   const insets = useSafeAreaInsets();
   const [query, setQuery] = useState('');
-  const { data: allRestaurants = [], isLoading: allLoading } = useRestaurants();
-  const { data: searchResults = [], isLoading: searchLoading } = useRestaurantSearch(query);
-  const results = query.trim().length > 0 ? searchResults : allRestaurants;
-  const isLoading = query.trim().length > 0 ? searchLoading : allLoading;
+  const [activeFilters, setActiveFilters] = useState<Set<FilterKey>>(new Set());
+  const { data: allRestaurants = [], isLoading } = useRestaurants();
+
+  const results = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return allRestaurants.filter((r) => {
+      const matchesSearch =
+        q.length === 0 ||
+        r.name.toLowerCase().includes(q) ||
+        (r.neighborhood?.toLowerCase().includes(q) ?? false) ||
+        r.city.toLowerCase().includes(q) ||
+        r.address.toLowerCase().includes(q);
+      return matchesSearch && matchesFilter(r, activeFilters);
+    });
+  }, [allRestaurants, query, activeFilters]);
+
+  function toggleFilter(key: FilterKey) {
+    setActiveFilters((prev) => {
+      const next = new Set(prev);
+      const regionKeys: FilterKey[] = ['manhattan', 'brooklyn', 'queens', 'nj'];
+      if (regionKeys.includes(key)) {
+        regionKeys.forEach((k) => next.delete(k));
+      }
+      if (prev.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      return next;
+    });
+  }
 
   return (
     <View className="flex-1 bg-off-white" style={{ paddingTop: insets.top }}>
-      <View className="px-4 pt-4 pb-3">
+      <View className="px-4 pt-4 pb-2">
         <Text className="text-2xl font-bold text-charcoal mb-3">Explore</Text>
         <View className="flex-row items-center bg-surface border border-border rounded-xl px-4 h-11 gap-2">
           <Text className="text-base">🔍</Text>
@@ -45,6 +92,39 @@ export default function ExploreScreen() {
         </View>
       </View>
 
+      {/* Filter chips */}
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={{ paddingHorizontal: 16, paddingVertical: 10, gap: 8 }}
+      >
+        {FILTERS.map((f) => {
+          const active = activeFilters.has(f.key);
+          return (
+            <Pressable
+              key={f.key}
+              onPress={() => toggleFilter(f.key)}
+              style={{
+                paddingHorizontal: 14,
+                paddingVertical: 7,
+                borderRadius: 20,
+                borderWidth: 1.5,
+                borderColor: active ? '#E8735A' : '#EDE8E3',
+                backgroundColor: active ? '#E8735A' : '#FFFFFF',
+              }}
+            >
+              <Text style={{
+                fontSize: 13,
+                fontWeight: '600',
+                color: active ? '#FFFFFF' : '#4A4440',
+              }}>
+                {f.label}
+              </Text>
+            </Pressable>
+          );
+        })}
+      </ScrollView>
+
       {isLoading ? (
         <View className="flex-1 items-center justify-center">
           <ActivityIndicator color="#E8735A" />
@@ -54,12 +134,12 @@ export default function ExploreScreen() {
           data={results}
           keyExtractor={(r) => r.id}
           contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 16 }}
-          ItemSeparatorComponent={() => <View className="h-px bg-border mx-0" />}
+          ItemSeparatorComponent={() => <View className="h-px bg-border" />}
           ListEmptyComponent={
             <View className="items-center py-16">
               <Text className="text-3xl mb-3">🍣</Text>
               <Text className="text-charcoal-light text-base text-center">
-                {query ? 'No restaurants found' : 'No restaurants yet'}
+                {query || activeFilters.size > 0 ? 'No restaurants match' : 'No restaurants yet'}
               </Text>
             </View>
           }
@@ -92,8 +172,13 @@ function RestaurantRow({ restaurant: r }: { restaurant: Restaurant }) {
           </Text>
         </View>
         <View className="items-end gap-1">
-          <View className={`px-2 py-0.5 rounded-full ${isOpen ? 'bg-wasabi/10' : 'bg-border'}`}>
-            <Text className={`text-xs font-medium ${isOpen ? 'text-wasabi' : 'text-charcoal-light'}`}>
+          <View style={{
+            paddingHorizontal: 8,
+            paddingVertical: 2,
+            borderRadius: 20,
+            backgroundColor: isOpen ? '#7AB64818' : '#EDE8E3',
+          }}>
+            <Text style={{ fontSize: 11, fontWeight: '600', color: isOpen ? '#7AB648' : '#8A7E78' }}>
               {isOpen ? 'Open' : 'Closed'}
             </Text>
           </View>

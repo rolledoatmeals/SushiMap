@@ -18,7 +18,7 @@ const NYC: Region = {
 export default function MapScreen() {
   const insets = useSafeAreaInsets();
   const { data: restaurants = [], isLoading } = useRestaurants();
-  const { session } = useAuthStore();
+  const { session, isGuest } = useAuthStore();
   const [selected, setSelected] = useState<Restaurant | null>(null);
   const sheetRef = useRef<BottomSheet>(null);
   const snapPoints = useMemo(() => [300], []);
@@ -95,7 +95,7 @@ export default function MapScreen() {
                 >
                   <Text style={{ fontSize: 14, fontWeight: '600', color: '#2C2926' }}>View Details</Text>
                 </Pressable>
-                {session && (
+                {(session || isGuest) && (
                   <Pressable
                     onPress={() => router.push({ pathname: '/log-visit', params: { restaurantId: selected.id } })}
                     style={{ flex: 1, height: 44, borderRadius: 12, backgroundColor: '#E8735A', alignItems: 'center', justifyContent: 'center' }}

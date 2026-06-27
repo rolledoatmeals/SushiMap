@@ -3,6 +3,7 @@ import { useLocalSearchParams, router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRestaurant } from '@/hooks/useRestaurants';
 import { useAuthStore } from '@/store/auth';
+
 import { isRestaurantOpenNow } from '@/utils/geo';
 import type { RestaurantHours } from '@/types/restaurant';
 
@@ -34,7 +35,7 @@ function formatTime(t: string): string {
 export default function RestaurantDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const insets = useSafeAreaInsets();
-  const { session } = useAuthStore();
+  const { session, isGuest } = useAuthStore();
   const { data: restaurant, isLoading } = useRestaurant(id ?? null);
 
   if (isLoading) {
@@ -212,7 +213,7 @@ export default function RestaurantDetailScreen() {
       </ScrollView>
 
       {/* Log Visit FAB */}
-      {session && (
+      {(session || isGuest) && (
         <View style={{
           position: 'absolute',
           bottom: insets.bottom + 16,

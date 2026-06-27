@@ -13,7 +13,7 @@ export default function JournalScreen() {
   const insets = useSafeAreaInsets();
   const { session, isGuest } = useAuthStore();
 
-  if (isGuest || !session) return <AuthGate />;
+  if (!session && !isGuest) return <AuthGate />;
 
   return <JournalList paddingBottom={insets.bottom} paddingTop={insets.top} />;
 }
