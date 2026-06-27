@@ -1,11 +1,12 @@
-import { useRef, useMemo, useCallback } from 'react';
+import { useRef, useMemo, useCallback, useState } from 'react';
 import { View, Text, Pressable, ActivityIndicator } from 'react-native';
 import MapView, { Marker, type Region } from 'react-native-maps';
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { router } from 'expo-router';
 import { useRestaurants } from '@/hooks/useRestaurants';
+import { useAuthStore } from '@/store/auth';
 import type { Restaurant } from '@/types/restaurant';
-import { useState } from 'react';
 
 const NYC: Region = {
   latitude: 40.82,
@@ -17,9 +18,10 @@ const NYC: Region = {
 export default function MapScreen() {
   const insets = useSafeAreaInsets();
   const { data: restaurants = [], isLoading } = useRestaurants();
+  const { session } = useAuthStore();
   const [selected, setSelected] = useState<Restaurant | null>(null);
   const sheetRef = useRef<BottomSheet>(null);
-  const snapPoints = useMemo(() => [240], []);
+  const snapPoints = useMemo(() => [300], []);
 
   const handleMarkerPress = useCallback((restaurant: Restaurant) => {
     setSelected(restaurant);
@@ -83,7 +85,27 @@ export default function MapScreen() {
         style={{ shadowColor: '#000', shadowOffset: { width: 0, height: -3 }, shadowOpacity: 0.08, shadowRadius: 12 }}
       >
         <BottomSheetView style={{ paddingHorizontal: 20, paddingBottom: insets.bottom + 8 }}>
-          {selected && <RestaurantDetail restaurant={selected} />}
+          {selected && (
+            <>
+              <RestaurantDetail restaurant={selected} />
+              <View style={{ flexDirection: 'row', gap: 10, marginTop: 14 }}>
+                <Pressable
+                  onPress={() => router.push(`/restaurant/${selected.id}`)}
+                  style={{ flex: 1, height: 44, borderRadius: 12, borderWidth: 1.5, borderColor: '#EDE8E3', alignItems: 'center', justifyContent: 'center' }}
+                >
+                  <Text style={{ fontSize: 14, fontWeight: '600', color: '#2C2926' }}>View Details</Text>
+                </Pressable>
+                {session && (
+                  <Pressable
+                    onPress={() => router.push({ pathname: '/log-visit', params: { restaurantId: selected.id } })}
+                    style={{ flex: 1, height: 44, borderRadius: 12, backgroundColor: '#E8735A', alignItems: 'center', justifyContent: 'center' }}
+                  >
+                    <Text style={{ fontSize: 14, fontWeight: '700', color: '#FFFFFF' }}>+ Log Visit</Text>
+                  </Pressable>
+                )}
+              </View>
+            </>
+          )}
         </BottomSheetView>
       </BottomSheet>
     </View>

@@ -47,7 +47,10 @@ export default function RootLayout() {
       <RepositoryProvider isAuthenticated={!!session}>
         <GestureHandlerRootView style={{ flex: 1 }}>
           <AuthInitializer />
-          <Stack screenOptions={{ headerShown: false }} />
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="restaurant/[id]" />
+            <Stack.Screen name="log-visit" options={{ presentation: 'modal' }} />
+          </Stack>
         </GestureHandlerRootView>
       </RepositoryProvider>
     </QueryClientProvider>

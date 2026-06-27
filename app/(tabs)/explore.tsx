@@ -7,6 +7,7 @@ import {
   Pressable,
   ActivityIndicator,
 } from 'react-native';
+import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRestaurants, useRestaurantSearch } from '@/hooks/useRestaurants';
 import type { Restaurant } from '@/types/restaurant';
@@ -77,7 +78,10 @@ function RestaurantRow({ restaurant: r }: { restaurant: Restaurant }) {
   const isOpen = isRestaurantOpenNow(r.hours);
 
   return (
-    <Pressable className="py-3.5 bg-off-white active:opacity-70">
+    <Pressable
+      onPress={() => router.push(`/restaurant/${r.id}`)}
+      className="py-3.5 bg-off-white active:opacity-70"
+    >
       <View className="flex-row items-center justify-between">
         <View className="flex-1 mr-3">
           <Text className="text-base font-semibold text-charcoal" numberOfLines={1}>
