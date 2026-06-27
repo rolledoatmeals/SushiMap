@@ -1,12 +1,14 @@
 import { Tabs, Redirect } from 'expo-router';
 import { Text } from 'react-native';
 import { useAuthStore } from '@/store/auth';
+import { isOnboardingComplete } from '@/utils/preferences';
 
 export default function TabsLayout() {
   const { session, isGuest, isLoading } = useAuthStore();
 
   if (isLoading) return null;
   if (!session && !isGuest) return <Redirect href="/(auth)/sign-in" />;
+  if (!isOnboardingComplete()) return <Redirect href="/(onboarding)" />;
 
   return (
     <Tabs

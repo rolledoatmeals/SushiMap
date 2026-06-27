@@ -1,13 +1,16 @@
-import { View, Text, Pressable, ActivityIndicator, Platform, Alert } from 'react-native';
+import { View, Text, Pressable, Platform, Alert } from 'react-native';
 import { Redirect } from 'expo-router';
 import * as AppleAuthentication from 'expo-apple-authentication';
 import { useAuthStore } from '@/store/auth';
 import { supabase } from '@/lib/supabase';
+import { isOnboardingComplete } from '@/utils/preferences';
 
 export default function SignInScreen() {
   const { session, isGuest, continueAsGuest } = useAuthStore();
 
-  if (session || isGuest) return <Redirect href="/(tabs)" />;
+  if (session || isGuest) {
+    return <Redirect href={isOnboardingComplete() ? '/(tabs)' : '/(onboarding)'} />;
+  }
 
   async function handleAppleSignIn() {
     try {
