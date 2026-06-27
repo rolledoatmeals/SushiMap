@@ -1,0 +1,47 @@
+[
+  {
+    "id": "region-nyc",
+    "name": "New York City",
+    "slug": "new-york-city",
+    "type": "city",
+    "parentId": null,
+    "bounds": null,
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "region-nyc-manhattan",
+    "name": "Manhattan",
+    "slug": "manhattan",
+    "type": "borough",
+    "parentId": "region-nyc",
+    "bounds": null,
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "region-nyc-brooklyn",
+    "name": "Brooklyn",
+    "slug": "brooklyn",
+    "type": "borough",
+    "parentId": "region-nyc",
+    "bounds": null,
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "region-nyc-queens",
+    "name": "Queens",
+    "slug": "queens",
+    "type": "borough",
+    "parentId": "region-nyc",
+    "bounds": null,
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "region-nj",
+    "name": "North Jersey",
+    "slug": "north-jersey",
+    "type": "city",
+    "parentId": null,
+    "bounds": null,
+    "createdAt": "2026-06-01T00:00:00Z"
+  }
+]

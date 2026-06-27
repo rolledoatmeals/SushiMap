@@ -1,0 +1,64 @@
+[
+  {
+    "id": "r-sakura-sushi-midtown",
+    "name": "Sakura Sushi",
+    "slug": "sakura-sushi-midtown",
+    "address": "234 W 48th St",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10036",
+    "lat": 40.7599,
+    "lng": -73.9873,
+    "phone": "+12125550001",
+    "website": null,
+    "status": "active",
+    "regionId": "region-nyc-manhattan",
+    "neighborhood": "Midtown",
+    "isAyce": true,
+    "pricing": [
+      {
+        "id": "price-sakura-lunch",
+        "restaurantId": "r-sakura-sushi-midtown",
+        "mealPeriod": "lunch",
+        "pricePerPerson": 18.99,
+        "currency": "USD",
+        "notes": null,
+        "verificationSource": "admin",
+        "verifiedBy": null,
+        "lastVerifiedAt": "2026-06-01T00:00:00Z",
+        "confidenceScore": 90,
+        "isCurrent": true,
+        "createdAt": "2026-06-01T00:00:00Z",
+        "updatedAt": "2026-06-01T00:00:00Z"
+      },
+      {
+        "id": "price-sakura-dinner",
+        "restaurantId": "r-sakura-sushi-midtown",
+        "mealPeriod": "dinner",
+        "pricePerPerson": 27.99,
+        "currency": "USD",
+        "notes": null,
+        "verificationSource": "admin",
+        "verifiedBy": null,
+        "lastVerifiedAt": "2026-06-01T00:00:00Z",
+        "confidenceScore": 90,
+        "isCurrent": true,
+        "createdAt": "2026-06-01T00:00:00Z",
+        "updatedAt": "2026-06-01T00:00:00Z"
+      }
+    ],
+    "hours": [
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 0, "openTime": "12:00", "closeTime": "22:00", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 1, "openTime": "11:30", "closeTime": "22:30", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 2, "openTime": "11:30", "closeTime": "22:30", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 3, "openTime": "11:30", "closeTime": "22:30", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 4, "openTime": "11:30", "closeTime": "23:00", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 5, "openTime": "12:00", "closeTime": "23:00", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" },
+      { "restaurantId": "r-sakura-sushi-midtown", "dayOfWeek": 6, "openTime": "12:00", "closeTime": "22:00", "isClosed": false, "verificationSource": "admin", "lastVerifiedAt": "2026-06-01T00:00:00Z" }
+    ],
+    "attributes": ["reservations", "byo_wine"],
+    "media": [],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "updatedAt": "2026-06-01T00:00:00Z"
+  }
+]
