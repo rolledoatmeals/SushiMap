@@ -15,19 +15,23 @@ function AuthInitializer() {
   useEffect(() => {
     let unsub: (() => void) | undefined;
 
-    supabase.auth
-      .getSession()
-      .then(({ data }) => setSession(data.session))
-      .catch(() => setSession(null));
+    (async () => {
+      try {
+        const { data } = await supabase.auth.getSession();
+        setSession(data.session);
+      } catch {
+        setSession(null);
+      }
 
-    try {
-      const { data } = supabase.auth.onAuthStateChange((_, session) => {
-        setSession(session);
-      });
-      unsub = () => data.subscription.unsubscribe();
-    } catch {
-      setSession(null);
-    }
+      try {
+        const { data } = supabase.auth.onAuthStateChange((_, session) => {
+          setSession(session);
+        });
+        unsub = () => data.subscription.unsubscribe();
+      } catch {
+        // env vars not available — stay in guest/loading state
+      }
+    })();
 
     return () => unsub?.();
   }, [setSession]);

@@ -1,16 +1,21 @@
-import { createMMKV } from 'react-native-mmkv';
+import { MMKV, createMMKV } from 'react-native-mmkv';
 import type { IJournalRepository } from '../repositories/interfaces/IJournalRepository';
 import type { JournalEntry, CreateJournalEntryInput, UpdateJournalEntryInput } from '@/types/journal';
 
-const storage = createMMKV({ id: 'guest-journal' });
 const ENTRIES_KEY = 'journal_entries';
+
+let _storage: MMKV | null = null;
+function getStorage(): MMKV {
+  if (!_storage) _storage = createMMKV({ id: 'guest-journal' });
+  return _storage;
+}
 
 function uuid(): string {
   return `local-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
 }
 
 function readEntries(): JournalEntry[] {
-  const raw = storage.getString(ENTRIES_KEY);
+  const raw = getStorage().getString(ENTRIES_KEY);
   if (!raw) return [];
   try {
     return JSON.parse(raw) as JournalEntry[];
@@ -20,7 +25,7 @@ function readEntries(): JournalEntry[] {
 }
 
 function writeEntries(entries: JournalEntry[]): void {
-  storage.set(ENTRIES_KEY, JSON.stringify(entries));
+  getStorage().set(ENTRIES_KEY, JSON.stringify(entries));
 }
 
 export class LocalJournalRepository implements IJournalRepository {

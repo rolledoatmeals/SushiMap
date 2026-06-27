@@ -1,11 +1,16 @@
-import { createMMKV } from 'react-native-mmkv';
+import { MMKV, createMMKV } from 'react-native-mmkv';
 import type { ISavedRepository } from '../repositories/interfaces/ISavedRepository';
 
-const storage = createMMKV({ id: 'guest-saved' });
 const SAVED_KEY = 'saved_restaurant_ids';
 
+let _storage: MMKV | null = null;
+function getStorage(): MMKV {
+  if (!_storage) _storage = createMMKV({ id: 'guest-saved' });
+  return _storage;
+}
+
 function readIds(): string[] {
-  const raw = storage.getString(SAVED_KEY);
+  const raw = getStorage().getString(SAVED_KEY);
   if (!raw) return [];
   try {
     return JSON.parse(raw) as string[];
@@ -15,7 +20,7 @@ function readIds(): string[] {
 }
 
 function writeIds(ids: string[]): void {
-  storage.set(SAVED_KEY, JSON.stringify(ids));
+  getStorage().set(SAVED_KEY, JSON.stringify(ids));
 }
 
 export class LocalSavedRepository implements ISavedRepository {
@@ -45,6 +50,6 @@ export class LocalSavedRepository implements ISavedRepository {
   }
 
   async clear(): Promise<void> {
-    storage.remove(SAVED_KEY);
+    getStorage().remove(SAVED_KEY);
   }
 }
