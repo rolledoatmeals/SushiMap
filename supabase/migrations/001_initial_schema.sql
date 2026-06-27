@@ -8,7 +8,7 @@ create table regions (
   id          uuid primary key default gen_random_uuid(),
   name        text not null,
   slug        text not null unique,
-  type        text not null cMheck (type in ('city', 'neighborhood', 'borough', 'special')),
+  type        text not null check (type in ('city', 'neighborhood', 'borough', 'special')),
   parent_id   uuid references regions(id),
   bounds      jsonb,
   created_at  timestamptz not null default now()
