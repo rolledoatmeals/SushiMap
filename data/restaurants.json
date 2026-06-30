@@ -1,0 +1,5828 @@
+[
+  {
+    "id": "r001",
+    "name": "Matsu Japanese Restaurant",
+    "address": "261 Broad Ave, Palisades Park, NJ 07650",
+    "coordinates": {
+      "latitude": 40.8519,
+      "longitude": -74.0064
+    },
+    "phone": "(201) 944-0088",
+    "website": "http://matsupalisadespark.com",
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-05-20",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 88,
+    "neighborhood": "Palisades Park",
+    "city": "Palisades Park",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "reviewCount": 312,
+    "tags": [
+      "large-groups",
+      "family-friendly",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "A Palisades Park staple with one of the longest AYCE menus in Bergen County. Known for generous sashimi portions and fast refills."
+  },
+  {
+    "id": "r002",
+    "name": "Sakura Sushi Palace",
+    "address": "135 Broad Ave, Palisades Park, NJ 07650",
+    "coordinates": {
+      "latitude": 40.8508,
+      "longitude": -74.0052
+    },
+    "phone": "(201) 585-9009",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 18,
+    "priceDinner": 28,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Tempura",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": false,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-05-10",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Palisades Park",
+    "city": "Palisades Park",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "reviewCount": 198,
+    "tags": [
+      "family-friendly",
+      "no-reservations",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Best-value AYCE on Broad Ave. Small but efficient \u2014 great for a quick lunch with friends who want variety without spending much."
+  },
+  {
+    "id": "r003",
+    "name": "New Tokyo AYCE",
+    "address": "400 Central Blvd, Palisades Park, NJ 07650",
+    "coordinates": {
+      "latitude": 40.8534,
+      "longitude": -74.0072
+    },
+    "phone": "(201) 944-2200",
+    "website": "http://newtokyo-nj.com",
+    "reservationUrl": null,
+    "priceLunch": 20,
+    "priceDinner": 30,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Pot",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-01",
+    "verificationSource": "Owner confirmation",
+    "communityConfidenceScore": 93,
+    "neighborhood": "Palisades Park",
+    "city": "Palisades Park",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 241,
+    "tags": [
+      "hot-pot",
+      "family-friendly",
+      "large-groups",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Palisades Park's most comprehensive AYCE menu with a 120-minute limit. Hot pot add-on available. Drinks included with dinner."
+  },
+  {
+    "id": "r004",
+    "name": "Fuji AYCE Sushi",
+    "address": "56 W Central Blvd, Palisades Park, NJ 07650",
+    "coordinates": {
+      "latitude": 40.8521,
+      "longitude": -74.0081
+    },
+    "phone": "(201) 585-0808",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 24,
+    "priceDinner": 34,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-04-15",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 79,
+    "neighborhood": "Palisades Park",
+    "city": "Palisades Park",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 167,
+    "tags": [
+      "couples",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "A quieter, more intimate AYCE option in Palisades Park. Quality fish and attentive staff make up for the smaller menu size."
+  },
+  {
+    "id": "r005",
+    "name": "Seki Japanese Restaurant",
+    "address": "2300 Lemoine Ave, Fort Lee, NJ 07024",
+    "coordinates": {
+      "latitude": 40.8517,
+      "longitude": -73.9709
+    },
+    "phone": "(201) 944-7353",
+    "website": "http://sekifortlee.com",
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-10",
+    "verificationSource": "Staff visit",
+    "communityConfidenceScore": 91,
+    "neighborhood": "Fort Lee",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 287,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Fort Lee's most consistent AYCE spot, just minutes from the GWB. Strong value at lunch and reliable fish quality year-round."
+  },
+  {
+    "id": "r006",
+    "name": "Hana Japanese Restaurant",
+    "address": "1920 Lemoine Ave, Fort Lee, NJ 07024",
+    "coordinates": {
+      "latitude": 40.8498,
+      "longitude": -73.9703
+    },
+    "phone": "(201) 461-0990",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 20,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Sashimi",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": false,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1562802378-063ec186a863?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-05-05",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 76,
+    "neighborhood": "Fort Lee",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$",
+    "rating": 3.8,
+    "reviewCount": 144,
+    "tags": [
+      "no-reservations",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "No-frills AYCE on Lemoine with some of the lowest prices in Fort Lee. Perfect for a casual weekday lunch."
+  },
+  {
+    "id": "r007",
+    "name": "Sakura Garden AYCE",
+    "address": "39-16 Prince St, Flushing, NY 11354",
+    "coordinates": {
+      "latitude": 40.7592,
+      "longitude": -73.8306
+    },
+    "phone": "(718) 888-0080",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 18,
+    "priceDinner": 27,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Sashimi",
+      "Hot Dishes",
+      "Soups",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-05-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Flushing",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$",
+    "rating": 4.0,
+    "reviewCount": 203,
+    "tags": [
+      "family-friendly",
+      "no-reservations",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Flushing's favorite budget AYCE. Unbeatable lunch prices, a wide menu, and a lively atmosphere popular with the local community."
+  },
+  {
+    "id": "r008",
+    "name": "Sushi Palace Flushing",
+    "address": "135-15 Roosevelt Ave, Flushing, NY 11354",
+    "coordinates": {
+      "latitude": 40.7598,
+      "longitude": -73.8297
+    },
+    "phone": "(718) 762-8886",
+    "website": "http://sushipalaceflushing.com",
+    "reservationUrl": null,
+    "priceLunch": 16,
+    "priceDinner": 25,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": false,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": false,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1534482421-64566f976cfa?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-04-20",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 72,
+    "neighborhood": "Flushing",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$",
+    "rating": 4.2,
+    "reviewCount": 318,
+    "tags": [
+      "no-reservations",
+      "lunch-special",
+      "family-friendly"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "No frills, maximum variety. Rolls-focused AYCE at Flushing's most accessible price point \u2014 great for groups on a budget."
+  },
+  {
+    "id": "r009",
+    "name": "Imperial Sushi AYCE",
+    "address": "40-07 Main St, Flushing, NY 11354",
+    "coordinates": {
+      "latitude": 40.7611,
+      "longitude": -73.8307
+    },
+    "phone": "(718) 939-9888",
+    "website": "http://imperialsushiflushing.com",
+    "reservationUrl": "http://imperialsushiflushing.com/reserve",
+    "priceLunch": 22,
+    "priceDinner": 32,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Soups",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-15",
+    "verificationSource": "Staff visit",
+    "communityConfidenceScore": 95,
+    "neighborhood": "Flushing",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "reviewCount": 412,
+    "tags": [
+      "premium-fish",
+      "large-groups",
+      "lunch-special",
+      "reservations-required"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Flushing's premium AYCE with a 120-minute limit and the widest menu in Queens. Reservations recommended on weekends."
+  },
+  {
+    "id": "r010",
+    "name": "Mono+Mono",
+    "address": "7 W 32nd St, New York, NY 10001",
+    "coordinates": {
+      "latitude": 40.7488,
+      "longitude": -73.9877
+    },
+    "phone": "(212) 967-7653",
+    "website": "http://monomono-nyc.com",
+    "reservationUrl": "http://monomono-nyc.com/reservations",
+    "priceLunch": 35,
+    "priceDinner": 55,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Premium Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Wagyu",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "00:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "00:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-20",
+    "verificationSource": "Staff visit",
+    "communityConfidenceScore": 97,
+    "neighborhood": "Koreatown",
+    "city": "New York",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "reviewCount": 891,
+    "tags": [
+      "premium-fish",
+      "sake",
+      "late-night",
+      "couples",
+      "large-groups",
+      "reservations-required"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Koreatown's finest AYCE experience. Bluefin tuna and wagyu rolls set it apart. Sake and cocktails included with dinner. Reserve in advance."
+  },
+  {
+    "id": "r011",
+    "name": "Yuki Sushi",
+    "address": "656 9th Ave, New York, NY 10036",
+    "coordinates": {
+      "latitude": 40.7607,
+      "longitude": -73.9916
+    },
+    "phone": "(212) 757-0108",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 27,
+    "priceDinner": 37,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-05-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Hell's Kitchen",
+    "city": "New York",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 156,
+    "tags": [
+      "late-night",
+      "couples",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "A Hell's Kitchen go-to after shows and late nights. Later hours than most, solid fish quality, and no reservation needed."
+  },
+  {
+    "id": "r012",
+    "name": "Sakura Sushi JC",
+    "address": "265 Grove St, Jersey City, NJ 07302",
+    "coordinates": {
+      "latitude": 40.7193,
+      "longitude": -74.0432
+    },
+    "phone": "(201) 333-8880",
+    "website": "http://sakurasushijc.com",
+    "reservationUrl": null,
+    "priceLunch": 23,
+    "priceDinner": 33,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-05",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Jersey City",
+    "city": "Jersey City",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 178,
+    "tags": [
+      "family-friendly",
+      "couples",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Jersey City's most complete AYCE menu near Grove St PATH. Popular with young professionals and families crossing from Manhattan."
+  },
+  {
+    "id": "r013",
+    "name": "Sushi X",
+    "address": "23 Chestnut St, Ridgewood, NJ 07450",
+    "coordinates": {
+      "latitude": 40.9795,
+      "longitude": -74.1155
+    },
+    "phone": "(201) 689-7878",
+    "website": "https://www.sushixnj.com",
+    "reservationUrl": null,
+    "priceLunch": 25,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://www.sushixnj.com/wp-content/uploads/sushixnj.com/2023/08/20190601_170547.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Ridgewood",
+    "city": "Ridgewood",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "reviewCount": 267,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Ridgewood's AYCE sushi on Chestnut St. BYOB. Lunch ~$26, dinner ~$29\u2013$31 depending on day. A local Bergen County favorite."
+  },
+  {
+    "id": "r014",
+    "name": "Miga Sushi",
+    "address": "559 E Main St, Denville, NJ 07834",
+    "coordinates": {
+      "latitude": 40.8942,
+      "longitude": -74.479
+    },
+    "phone": "(973) 625-3828",
+    "website": "https://www.migasushi.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://static.wixstatic.com/media/592697_4f3dd1f3c7654e87ab70272e064241c9~mv2.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 86,
+    "neighborhood": "Denville",
+    "city": "Denville",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 334,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking",
+      "closed-monday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Denville AYCE on E Main St. BYOB, 90-minute limit, charge for unfinished food. Flat rate ~$33/person. Closed Mondays."
+  },
+  {
+    "id": "r015",
+    "name": "Miga Sushi Wayne",
+    "address": "215 Berdan Ave, Wayne, NJ 07470",
+    "coordinates": {
+      "latitude": 40.9287,
+      "longitude": -74.2762
+    },
+    "phone": "(973) 694-7777",
+    "website": "https://www.migasushi.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://static.wixstatic.com/media/c3477a_a00c973715554699a631a15ae5278570~mv2.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 86,
+    "neighborhood": "Wayne",
+    "city": "Wayne",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 289,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking",
+      "closed-monday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Wayne location of Miga Sushi on Berdan Ave. Same AYCE format as Denville \u2014 flat rate ~$33, 90-minute limit, BYOB. Closed Mondays."
+  },
+  {
+    "id": "r016",
+    "name": "Sushi Village",
+    "address": "68 Newark Pompton Tpke, Little Falls, NJ 07424",
+    "coordinates": {
+      "latitude": 40.8758,
+      "longitude": -74.222
+    },
+    "phone": "(973) 785-8199",
+    "website": "https://www.sushivillagenj.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 31,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Sashimi",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://www.sushivillagenj.com/wp-content/uploads/2025/05/little-fall-all-you-can-eat-1.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Little Falls",
+    "city": "Little Falls",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "reviewCount": 221,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "no-reservations",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Little Falls AYCE on Newark Pompton Tpke. BYOB with free parking. Flat rate ~$31/person. Great neighborhood spot in Passaic County."
+  },
+  {
+    "id": "r017",
+    "name": "Arigato",
+    "address": "581 High Mountain Rd, North Haledon, NJ 07508",
+    "coordinates": {
+      "latitude": 40.9714,
+      "longitude": -74.1869
+    },
+    "phone": "(973) 238-1188",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 23,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "North Haledon",
+    "city": "North Haledon",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$",
+    "rating": 4.0,
+    "reviewCount": 143,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "North Haledon AYCE on High Mountain Rd. Small and cozy \u2014 reservations recommended. BYOB with some of the best prices in Passaic County (~$23/person)."
+  },
+  {
+    "id": "r018",
+    "name": "Yuki Hana",
+    "address": "279 Browertown Rd, Woodland Park, NJ 07424",
+    "coordinates": {
+      "latitude": 40.8951,
+      "longitude": -74.2009
+    },
+    "phone": "(973) 339-9326",
+    "website": "https://www.yukihananj.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://static.wixstatic.com/media/592697_04f1688f5f674d7f8e5e6cb2a242a691~mv2.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Woodland Park",
+    "city": "Woodland Park",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 198,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "closed-monday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Woodland Park AYCE on Browertown Rd. ~$30/person weekdays. Free parking. Full menu of sashimi, nigiri, and rolls. Closed Mondays."
+  },
+  {
+    "id": "r019",
+    "name": "Sushi Village South Hackensack",
+    "address": "388 US-46, South Hackensack, NJ 07606",
+    "coordinates": {
+      "latitude": 40.8548,
+      "longitude": -74.0518
+    },
+    "phone": "(201) 880-6904",
+    "website": "https://sushivillage46.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Rolls",
+      "Sashimi",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": false,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://static.hungerrush.com/menufy/width=1024,height=1024,fit=scale-down,format=auto/638578717936427707+1492955.png"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "South Hackensack",
+    "city": "South Hackensack",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "reviewCount": 112,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "no-reservations",
+      "parking",
+      "closed-tuesday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Sushi Village's Route 46 location. BYOB, free parking. ~$30\u201335/person flat AYCE rate. Closed Tuesdays."
+  },
+  {
+    "id": "r020",
+    "name": "Sakura Sushi",
+    "address": "79 N Middletown Rd, Pearl River, NY 10965",
+    "coordinates": {
+      "latitude": 40.9591,
+      "longitude": -74.0194
+    },
+    "phone": "(845) 548-4473",
+    "website": "https://sakurasushipearlriver.com",
+    "reservationUrl": null,
+    "priceLunch": 17,
+    "priceDinner": 26,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://sakurasushipearlriver.com/images/gallery/r01.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Pearl River",
+    "city": "Pearl River",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$",
+    "rating": 4.0,
+    "reviewCount": 189,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Pearl River's AYCE spot in Rockland County. Lunch AYCE $17, dinner $26. Both AYCE and a la carte available. Free parking."
+  },
+  {
+    "id": "r021",
+    "name": "A Sushi",
+    "address": "430 NJ-17, Carlstadt, NJ 07072",
+    "coordinates": {
+      "latitude": 40.8244,
+      "longitude": -74.0845
+    },
+    "phone": "(201) 300-4602",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 28,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "17:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 78,
+    "neighborhood": "Carlstadt",
+    "city": "Carlstadt",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 87,
+    "tags": [
+      "byob",
+      "parking",
+      "new-spot"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "New AYCE spot on Route 17 in Carlstadt that opened in 2025. Only 44 seats \u2014 call ahead to confirm current hours and pricing. BYOB."
+  },
+  {
+    "id": "r022",
+    "name": "Arigato Edgewater",
+    "address": "1034 River Rd, Edgewater, NJ 07020",
+    "coordinates": {
+      "latitude": 40.8243,
+      "longitude": -73.9748
+    },
+    "phone": "(201) 886-1233",
+    "website": "https://www.arigatonj.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": false,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "17:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "17:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "17:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "17:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://www.arigatonj.com/img/3.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Edgewater",
+    "city": "Edgewater",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 156,
+    "tags": [
+      "byob",
+      "dinner-only",
+      "parking",
+      "couples"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Dinner-only AYCE on River Rd in Edgewater (opens 5pm). Note: AYCE does NOT include sashimi. BYOB. ~$28\u201332/person."
+  },
+  {
+    "id": "r023",
+    "name": "Kikoo Sushi",
+    "address": "141 1st Ave, New York, NY 10003",
+    "coordinates": {
+      "latitude": 40.729,
+      "longitude": -73.9815
+    },
+    "phone": "(212) 533-3888",
+    "website": "https://www.kikoosushi.com",
+    "reservationUrl": null,
+    "priceLunch": 33,
+    "priceDinner": 43,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Tempura",
+      "Teriyaki",
+      "Udon",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://www.kikoosushi.com/images/banner01.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 87,
+    "neighborhood": "East Village",
+    "city": "New York",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "reviewCount": 543,
+    "tags": [
+      "no-reservations",
+      "late-night",
+      "couples",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "East Village AYCE with a huge menu: sushi, sashimi, tempura, udon, teriyaki, and dessert. 18% gratuity added auto. $50 option adds unlimited drinks."
+  },
+  {
+    "id": "r024",
+    "name": "Sushi Hayashi",
+    "address": "355 E 50th St, New York, NY 10022",
+    "coordinates": {
+      "latitude": 40.7543,
+      "longitude": -73.972
+    },
+    "phone": "(646) 410-2310",
+    "website": "https://sushihayashi.com",
+    "reservationUrl": "https://resy.com",
+    "priceLunch": 98,
+    "priceDinner": 98,
+    "timeLimit": 80,
+    "menuCategories": [
+      "Omakase Nigiri",
+      "Sashimi",
+      "Specialty Rolls",
+      "Sake",
+      "Beer"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://thesushilegend.com/wp-content/uploads/2026/04/IMG_0492-scaled.jpeg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 88,
+    "neighborhood": "Midtown East",
+    "city": "New York",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "reviewCount": 312,
+    "tags": [
+      "premium-fish",
+      "sake",
+      "omakase",
+      "reservations-required",
+      "couples",
+      "closed-sunday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Midtown East omakase-style AYCE: 14-course tasting + unlimited nigiri + unlimited sake/beer for $98. Only 10 seats \u2014 book on Resy. Closed Sundays. $6/piece fee for uneaten sushi."
+  },
+  {
+    "id": "r025",
+    "name": "Osaka Sushi",
+    "address": "23A Washington St, Tenafly, NJ 07670",
+    "coordinates": {
+      "latitude": 40.9262,
+      "longitude": -73.9578
+    },
+    "phone": "(201) 345-7029",
+    "website": "https://osakasushitenafly.com",
+    "reservationUrl": null,
+    "priceLunch": 29,
+    "priceDinner": 31,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://osakasushitenafly.com/images/gallery/gallery04.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Tenafly",
+    "city": "Tenafly",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 234,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "lunch-special",
+      "couples"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Tenafly AYCE on Washington St. BYOB. Weekday $29.95, weekend $31.95. Kids under 10 priced separately."
+  },
+  {
+    "id": "r026",
+    "name": "Asahi Sushi",
+    "address": "506 Livingston St, Norwood, NJ 07648",
+    "coordinates": {
+      "latitude": 40.9992,
+      "longitude": -74.0074
+    },
+    "phone": "(201) 784-7405",
+    "website": "https://www.asahisushi506.com",
+    "reservationUrl": null,
+    "priceLunch": 28,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [
+      "https://www.asahisushi506.com/assets/images/backgrounds/16.jpg"
+    ],
+    "lastVerifiedDate": "2026-06-28",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 86,
+    "neighborhood": "Norwood",
+    "city": "Norwood",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 167,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Norwood AYCE on Livingston St. BYOB. Weekday $28.99, weekend/holiday $30.99. Unlimited sashimi, nigiri, rolls, and kitchen dishes 7 days a week."
+  },
+  {
+    "id": "r027",
+    "name": "Rakuzen AYCE Sushi",
+    "address": "6408 Fort Hamilton Pkwy, Brooklyn, NY 11219",
+    "coordinates": {
+      "latitude": 40.6228,
+      "longitude": -73.9991
+    },
+    "phone": "(718) 238-0008",
+    "website": "https://www.rakuzenaycesushiny.com",
+    "reservationUrl": null,
+    "priceLunch": 31,
+    "priceDinner": 31,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Borough Park",
+    "city": "Brooklyn",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "43009",
+    "rating": 4.1,
+    "reviewCount": 289,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Borough Park favorite with flat-rate AYCE sushi and sashimi starting at $30.99. Open every day with fast table service and a broad roll menu."
+  },
+  {
+    "id": "r028",
+    "name": "Rakuzen AYCE Sushi Elmhurst",
+    "address": "89-23 Queens Blvd, Elmhurst, NY 11373",
+    "coordinates": {
+      "latitude": 40.7354,
+      "longitude": -73.8765
+    },
+    "phone": "(718) 505-8883",
+    "website": "https://www.rakuzennyc.com",
+    "reservationUrl": null,
+    "priceLunch": 31,
+    "priceDinner": 31,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Elmhurst",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "43009",
+    "rating": 4.2,
+    "reviewCount": 347,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "no-reservations",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Spacious Elmhurst AYCE spot on Queens Blvd with a roomy dining room and quick refill pace. $30.99 flat rate with full sushi and kitchen menu."
+  },
+  {
+    "id": "r029",
+    "name": "Las Vegas Sushi",
+    "address": "1475 Bergen Blvd, Fort Lee, NJ 07024",
+    "coordinates": {
+      "latitude": 40.8479,
+      "longitude": -73.9703
+    },
+    "phone": "(201) 482-0870",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 38,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Fort Lee",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.0,
+    "reviewCount": 134,
+    "tags": [
+      "byob",
+      "no-reservations",
+      "dinner-only"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "BYOB AYCE sushi in Fort Lee at $38 per person. A solid mid-tier option in the Fort Lee corridor with a full roll and kitchen menu."
+  },
+  {
+    "id": "r030",
+    "name": "Sushi Palace Edison",
+    "address": "1089 Inman Ave, Edison, NJ 08820",
+    "coordinates": {
+      "latitude": 40.5323,
+      "longitude": -74.3609
+    },
+    "phone": "(908) 822-8886",
+    "website": "https://sushipalacenj.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Edison",
+    "city": "Edison",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.0,
+    "reviewCount": 223,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Part of the popular Sushi Palace NJ chain. All-you-can-eat sushi and sashimi freshly made to order. $28.95 weekdays, $30.95 weekends."
+  },
+  {
+    "id": "r031",
+    "name": "Sushi Palace Somerville",
+    "address": "34 Division St, Somerville, NJ 08876",
+    "coordinates": {
+      "latitude": 40.5716,
+      "longitude": -74.6068
+    },
+    "phone": "(908) 218-7888",
+    "website": "https://sushipalacenj.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Somerville",
+    "city": "Somerville",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.1,
+    "reviewCount": 198,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Downtown Somerville location of the Sushi Palace NJ chain. Fresh-to-order AYCE sushi and sashimi at $28.95 weekdays, $30.95 weekends."
+  },
+  {
+    "id": "r032",
+    "name": "Sushi Palace Summit",
+    "address": "33 Union Pl, Summit, NJ 07901",
+    "coordinates": {
+      "latitude": 40.7163,
+      "longitude": -74.3585
+    },
+    "phone": "(908) 277-2333",
+    "website": "https://www.sushipalacesummit.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Summit",
+    "city": "Summit",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.2,
+    "reviewCount": 267,
+    "tags": [
+      "family-friendly",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "The Summit outpost of Sushi Palace NJ, located in downtown Summit. Popular with the local commuter crowd. $28.95 weekdays, $30.95 weekends."
+  },
+  {
+    "id": "r033",
+    "name": "Sushi Palace Princeton",
+    "address": "4437 NJ-27, Princeton, NJ 08540",
+    "coordinates": {
+      "latitude": 40.3694,
+      "longitude": -74.6271
+    },
+    "phone": "(609) 924-2882",
+    "website": "https://sushipalacenj.com/home/princeton",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Kingston",
+    "city": "Princeton",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.0,
+    "reviewCount": 156,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Southernmost Sushi Palace NJ location in the Princeton/Kingston shopping mall. Great option for Central NJ with fresh-to-order AYCE at $28.95/$30.95."
+  },
+  {
+    "id": "r034",
+    "name": "East Hana JC",
+    "address": "103 Montgomery St, Jersey City, NJ 07302",
+    "coordinates": {
+      "latitude": 40.7181,
+      "longitude": -74.0476
+    },
+    "phone": "(201) 984-0709",
+    "website": "https://www.easthanajc.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 80,
+    "neighborhood": "Downtown Jersey City",
+    "city": "Jersey City",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "43009",
+    "rating": 4.1,
+    "reviewCount": 178,
+    "tags": [
+      "family-friendly",
+      "no-reservations",
+      "couples"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "A Jersey City go-to for AYCE sushi near the waterfront district. Well-regarded for freshness and a welcoming atmosphere close to the PATH."
+  },
+  {
+    "id": "r035",
+    "name": "Sake Sushi",
+    "address": "2347 86th St, Brooklyn, NY 11214",
+    "coordinates": {
+      "latitude": 40.6027,
+      "longitude": -73.9995
+    },
+    "phone": "(718) 265-6288",
+    "website": "https://sakesushiny.com",
+    "reservationUrl": null,
+    "priceLunch": 13,
+    "priceDinner": 20,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": false,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": false,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Gravesend",
+    "city": "Brooklyn",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$",
+    "rating": 3.9,
+    "reviewCount": 412,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Brooklyn's most affordable AYCE spot at $13 lunch / $20 dinner. Tiny no-frills room in Gravesend with 2-hour seating. No-reservations only \u2014 expect a wait on weekends."
+  },
+  {
+    "id": "r036",
+    "name": "66s Fusion",
+    "address": "130 Flushing Ave, Brooklyn, NY 11205",
+    "coordinates": {
+      "latitude": 40.6977,
+      "longitude": -73.9617
+    },
+    "phone": "(718) 222-0050",
+    "website": "https://www.66sfusion.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 36,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Navy Yard",
+    "city": "Brooklyn",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 321,
+    "tags": [
+      "no-reservations",
+      "late-night",
+      "couples",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Elevated AYCE sushi fusion near the Brooklyn Navy Yard. Fresher and more creative than typical AYCE spots. Closed Sundays."
+  },
+  {
+    "id": "r037",
+    "name": "Sushi Village Westwood",
+    "address": "700 Broadway, Westwood, NJ 07675",
+    "coordinates": {
+      "latitude": 40.9869,
+      "longitude": -74.0369
+    },
+    "phone": "(201) 666-8800",
+    "website": "https://sushivillagewestwood.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 28,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 86,
+    "neighborhood": "Westwood",
+    "city": "Westwood",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 289,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "large-groups",
+      "lunch-special"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Bergen County AYCE staple on Broadway in Westwood. Part of the Sushi Village NJ family. $27.99 weekdays, $28.99 weekends. Reliable value with a broad menu."
+  },
+  {
+    "id": "r038",
+    "name": "Ginza Sushi Lounge",
+    "address": "10 Akron St Ste 9, Staten Island, NY 10314",
+    "coordinates": {
+      "latitude": 40.5895,
+      "longitude": -74.1596
+    },
+    "phone": "(718) 983-5063",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 35,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 79,
+    "neighborhood": "Bulls Head",
+    "city": "Staten Island",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 134,
+    "tags": [
+      "family-friendly",
+      "no-reservations",
+      "closed-monday",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Staten Island's local AYCE favorite in Bulls Head. Closed Mondays. Fresh sushi and rolls made to order."
+  },
+  {
+    "id": "r039",
+    "name": "Fuji Sushi",
+    "address": "1115 Hylan Blvd, Staten Island, NY 10305",
+    "coordinates": {
+      "latitude": 40.6098,
+      "longitude": -74.0745
+    },
+    "phone": "(718) 816-0188",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 78,
+    "neighborhood": "Grasmere",
+    "city": "Staten Island",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 98,
+    "tags": [
+      "family-friendly",
+      "no-reservations",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Staten Island AYCE on Hylan Blvd. Closed Mon and Tue. ~$30/person dinner."
+  },
+  {
+    "id": "r040",
+    "name": "UMI Hotpot Sushi & Seafood",
+    "address": "961 E 174th St Ste 66, Bronx, NY 10460",
+    "coordinates": {
+      "latitude": 40.839,
+      "longitude": -73.8807
+    },
+    "phone": "(917) 688-3112",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 23,
+    "priceDinner": 35,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hot Pot"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 81,
+    "neighborhood": "Tremont",
+    "city": "Bronx",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 187,
+    "tags": [
+      "hot-pot",
+      "family-friendly",
+      "lunch-special",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "The Bronx's all-you-can-eat hotpot + sushi + seafood buffet. Lunch $22.99, dinner $34.99. Boba included."
+  },
+  {
+    "id": "r041",
+    "name": "Akino Sushi Elmhurst",
+    "address": "82-80 Broadway, Elmhurst, NY 11373",
+    "coordinates": {
+      "latitude": 40.7338,
+      "longitude": -73.8782
+    },
+    "phone": "(718) 779-8280",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 26,
+    "priceDinner": 41,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:25",
+        "close": "21:40",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "Elmhurst",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "reviewCount": 312,
+    "tags": [
+      "premium-fish",
+      "lunch-special",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Well-reviewed Elmhurst AYCE with 2-hour limit. Lunch $26 Mon-Fri. Dinner $41 weekdays / $43 weekends. Quality fish."
+  },
+  {
+    "id": "r042",
+    "name": "Akino Sushi Flushing",
+    "address": "133-42 39th Ave Ste 103, Flushing, NY 11354",
+    "coordinates": {
+      "latitude": 40.7514,
+      "longitude": -73.8299
+    },
+    "phone": "(718) 210-2331",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 25,
+    "priceDinner": 43,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:59",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:59",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:59",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:59",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:29",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:29",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:59",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Flushing",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "reviewCount": 234,
+    "tags": [
+      "premium-fish",
+      "lunch-special",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Modern Flushing AYCE from the Akino brand. Lunch ~$25, dinner ~$43. 2-hour seating. Newer location with fresh decor."
+  },
+  {
+    "id": "r043",
+    "name": "New Sushi Village Bayside",
+    "address": "3250 Francis Lewis Blvd, Bayside, NY 11358",
+    "coordinates": {
+      "latitude": 40.7694,
+      "longitude": -73.7751
+    },
+    "phone": "(718) 358-2888",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 30,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:15",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:15",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:15",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:15",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:45",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:45",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:15",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Bayside",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 267,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "large-groups",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Long-running Bayside AYCE staple. Lunch $29.99-$31.99, dinner $31.99-$35. Consistent quality, good for groups."
+  },
+  {
+    "id": "r044",
+    "name": "River Japanese Cuisine",
+    "address": "61-44 Springfield Blvd, Bayside, NY 11364",
+    "coordinates": {
+      "latitude": 40.7422,
+      "longitude": -73.7478
+    },
+    "phone": "(718) 747-7390",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 26,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 80,
+    "neighborhood": "Oakland Gardens",
+    "city": "Queens",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "reviewCount": 143,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "no-reservations",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Neighborhood AYCE gem in Oakland Gardens/Bayside. Lunch ~$22, dinner ~$26. Good value for Queens."
+  },
+  {
+    "id": "r045",
+    "name": "Kikoo Sushi UWS",
+    "address": "998 Columbus Ave, New York, NY 10025",
+    "coordinates": {
+      "latitude": 40.801,
+      "longitude": -73.9618
+    },
+    "phone": null,
+    "website": "https://www.kikoosushi.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 45,
+    "timeLimit": 120,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 86,
+    "neighborhood": "Upper West Side",
+    "city": "New York",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "reviewCount": 289,
+    "tags": [
+      "couples",
+      "large-groups",
+      "no-reservations"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Kikoo Sushi's Upper West Side location. $45 AYCE, $50 with unlimited drinks. Less crowded than the East Village spot."
+  },
+  {
+    "id": "r046",
+    "name": "Nova Asian Bistro",
+    "address": "1215 Jericho Tpke, New Hyde Park, NY 11040",
+    "coordinates": {
+      "latitude": 40.7282,
+      "longitude": -73.696
+    },
+    "phone": "(516) 280-8866",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 36,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 80,
+    "neighborhood": "New Hyde Park",
+    "city": "New Hyde Park",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 112,
+    "tags": [
+      "family-friendly",
+      "parking",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Long Island AYCE in New Hyde Park. Fusion menu of sushi, teriyaki, and more. ~$36/person dinner."
+  },
+  {
+    "id": "r047",
+    "name": "Sushi Time 560",
+    "address": "560 Stewart Ave, Bethpage, NY 11714",
+    "coordinates": {
+      "latitude": 40.7461,
+      "longitude": -73.4828
+    },
+    "phone": "(516) 513-1622",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 21,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Bethpage",
+    "city": "Bethpage",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 198,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "BYOB AYCE on Long Island in Bethpage. Lunch ~$20, dinner ~$30. No alcohol served \u2014 bring your own."
+  },
+  {
+    "id": "r048",
+    "name": "Watawa Sushi & Lounge",
+    "address": "164 Hicksville Rd, Bethpage, NY 11714",
+    "coordinates": {
+      "latitude": 40.7386,
+      "longitude": -73.4896
+    },
+    "phone": "(516) 731-8989",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 24,
+    "priceDinner": 27,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 81,
+    "neighborhood": "Bethpage",
+    "city": "Bethpage",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 167,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Bethpage AYCE with weekday/weekend pricing. Lunch $23.95-$25.95, dinner $26.95-$29.95. Solid Long Island neighborhood spot."
+  },
+  {
+    "id": "r049",
+    "name": "Sake Asian",
+    "address": "23 Broadway, Massapequa, NY 11758",
+    "coordinates": {
+      "latitude": 40.6804,
+      "longitude": -73.4673
+    },
+    "phone": "(516) 882-0328",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 80,
+    "neighborhood": "Massapequa",
+    "city": "Massapequa",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 143,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Massapequa AYCE with sushi and hibachi. Weekday cash $28.99 / card $30.99. Weekend cash $30.99 / card $32.99."
+  },
+  {
+    "id": "r050",
+    "name": "Sushi Castle",
+    "address": "36 Mill Rd, Eastchester, NY 10709",
+    "coordinates": {
+      "latitude": 40.954,
+      "longitude": -73.8148
+    },
+    "phone": "(914) 395-0888",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:30",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Eastchester",
+    "city": "Eastchester",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 221,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Well-reviewed Westchester AYCE just north of the Bronx. Weekday $29.95, weekend $31.95. Kids $15.95."
+  },
+  {
+    "id": "r051",
+    "name": "Sushi Palace Yonkers",
+    "address": "2223 Central Park Ave, Yonkers, NY 10710",
+    "coordinates": {
+      "latitude": 40.9669,
+      "longitude": -73.8577
+    },
+    "phone": "(914) 268-0888",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Yonkers",
+    "city": "Yonkers",
+    "state": "NY",
+    "market": "NYC",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 198,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "parking",
+      "large-groups"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Sushi Palace's Westchester outpost on Central Park Ave in Yonkers. AYCE sushi + hibachi + Chinese dishes. ~$30/person."
+  },
+  {
+    "id": "r052",
+    "name": "Sushi House Teaneck",
+    "address": "972 Teaneck Rd, Teaneck, NJ 07666",
+    "coordinates": {
+      "latitude": 40.8906,
+      "longitude": -74.0133
+    },
+    "phone": "(201) 530-7866",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 15,
+    "priceDinner": 23,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Teaneck",
+    "city": "Teaneck",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$",
+    "rating": 4.1,
+    "reviewCount": 189,
+    "tags": [
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "One of the best value AYCE spots in Bergen County. Lunch $14.99, dinner $22.99. Kids half price under 10."
+  },
+  {
+    "id": "r053",
+    "name": "Picnic Sushi",
+    "address": "239 Main St, Fort Lee, NJ 07024",
+    "coordinates": {
+      "latitude": 40.8503,
+      "longitude": -73.9706
+    },
+    "phone": "(201) 363-1889",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 26,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "17:00",
+        "close": "21:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 76,
+    "neighborhood": "Fort Lee",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.0,
+    "reviewCount": 87,
+    "tags": [
+      "byob",
+      "dinner-only",
+      "no-reservations",
+      "closed-sunday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "BYOB AYCE on Main St Fort Lee. Dinner only, closed Sundays. Cash $25, card $28. Call ahead to confirm hours."
+  },
+  {
+    "id": "r054",
+    "name": "Miga Sushi Livingston",
+    "address": "277 Eisenhower Pkwy, Livingston, NJ 07039",
+    "coordinates": {
+      "latitude": 40.7952,
+      "longitude": -74.3186
+    },
+    "phone": "(973) 994-1812",
+    "website": "https://migasushi.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 33,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Livingston",
+    "city": "Livingston",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 212,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking",
+      "closed-monday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Third Miga Sushi location in Livingston. BYOB, 90-min limit, closed Mondays. Same great quality as Denville and Wayne."
+  },
+  {
+    "id": "r055",
+    "name": "Supra Revolving Sushi",
+    "address": "679 W Edgar Rd, Linden, NJ 07036",
+    "coordinates": {
+      "latitude": 40.6188,
+      "longitude": -74.2414
+    },
+    "phone": "(908) 525-3413",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 33,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Linden",
+    "city": "Linden",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 178,
+    "tags": [
+      "conveyor-belt",
+      "byob",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "NJ's conveyor-belt AYCE sushi experience. BYOB, no corkage fee. Lunch $21.99, dinner $32.99. Unique and fun for groups."
+  },
+  {
+    "id": "r056",
+    "name": "Sakana New Brunswick",
+    "address": "338 George St, New Brunswick, NJ 08901",
+    "coordinates": {
+      "latitude": 40.4966,
+      "longitude": -74.4465
+    },
+    "phone": "(732) 867-9308",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": false,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:15",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:15",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:15",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:15",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "21:45",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "21:45",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:15",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Downtown New Brunswick",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "reviewCount": 267,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "no-reservations",
+      "new-spot"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Modern BYOB AYCE near Rutgers with iPad ordering and robot delivery. ~$32/person weekends. The most tech-forward AYCE in NJ."
+  },
+  {
+    "id": "r057",
+    "name": "East Hana Metuchen",
+    "address": "656 Middlesex Ave, Metuchen, NJ 08840",
+    "coordinates": {
+      "latitude": 40.5468,
+      "longitude": -74.3636
+    },
+    "phone": "(732) 372-7600",
+    "website": "https://www.easthanasushi.com",
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 25,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Metuchen",
+    "city": "Metuchen",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 178,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "East Hana BYOB AYCE in Metuchen. Weekday ~$25, weekend ~$32. Fresh fish and a welcoming atmosphere."
+  },
+  {
+    "id": "r058",
+    "name": "Sakana East Hanover",
+    "address": "200 State Route 10, East Hanover, NJ 07936",
+    "coordinates": {
+      "latitude": 40.8155,
+      "longitude": -74.3778
+    },
+    "phone": "(862) 701-6000",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 33,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:30",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "East Hanover",
+    "city": "East Hanover",
+    "state": "NJ",
+    "market": "NJ",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 156,
+    "tags": [
+      "byob",
+      "family-friendly",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Sakana BYOB AYCE on Route 10 in East Hanover. Modern concept, ~$32-35/person. iPad ordering. Good for Morris County."
+  },
+  {
+    "id": "r059",
+    "name": "Ajisai AYCE",
+    "address": "2101 E Fowler Ave, Tampa, FL 33612",
+    "coordinates": {
+      "latitude": 28.0621,
+      "longitude": -82.4027
+    },
+    "phone": "(813) 898-0212",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": null,
+    "priceDinner": 30,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "North Tampa / Temple Terrace",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 312,
+    "tags": [
+      "late-night",
+      "no-reservations",
+      "family-friendly"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Tampa's go-to AYCE near USF. ~$30/person flat rate, late-night hours, student discount with USF ID."
+  },
+  {
+    "id": "r060",
+    "name": "Sushi Yama",
+    "address": "10017 E Adamo Dr, Tampa, FL 33619",
+    "coordinates": {
+      "latitude": 27.889,
+      "longitude": -82.2897
+    },
+    "phone": "(813) 665-9888",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 32,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 84,
+    "neighborhood": "Brandon / East Tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "reviewCount": 289,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Popular Brandon-area AYCE with sushi and hibachi. Lunch $21.95 (Mon-Sat 11am-3:30pm), dinner $31.95."
+  },
+  {
+    "id": "r061",
+    "name": "Kingdom Sushi",
+    "address": "4027 S Dale Mabry Hwy, Tampa, FL 33611",
+    "coordinates": {
+      "latitude": 27.9112,
+      "longitude": -82.5139
+    },
+    "phone": "(813) 252-6890",
+    "website": "https://kingdomsushi.com",
+    "reservationUrl": null,
+    "priceLunch": 33,
+    "priceDinner": 41,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Dessert"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": true,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 85,
+    "neighborhood": "South Tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "reviewCount": 421,
+    "tags": [
+      "premium-fish",
+      "couples",
+      "large-groups",
+      "late-night"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "South Tampa's premium Brazilian-Japanese AYCE. Lunch $32.90, dinner $40.90. Desserts included."
+  },
+  {
+    "id": "r062",
+    "name": "Saki Endless Sushi Carrollwood",
+    "address": "11921 N Dale Mabry Hwy, Tampa, FL 33618",
+    "coordinates": {
+      "latitude": 28.0729,
+      "longitude": -82.5146
+    },
+    "phone": "(813) 961-1711",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 17,
+    "priceDinner": 22,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Carrollwood",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$",
+    "rating": 4.1,
+    "reviewCount": 378,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Best-value endless sushi + hibachi in North Tampa. Lunch $16.99, dinner $21.99 including soup and salad."
+  },
+  {
+    "id": "r063",
+    "name": "Shogun Sushi",
+    "address": "1713 S Dale Mabry Hwy, Tampa, FL 33629",
+    "coordinates": {
+      "latitude": 27.9278,
+      "longitude": -82.514
+    },
+    "phone": "(813) 253-2095",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 22,
+    "priceDinner": 33,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "South Tampa / Hyde Park",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 234,
+    "tags": [
+      "couples",
+      "no-reservations",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Creative AYCE sushi in South Tampa near Hyde Park. Menu includes Pepper Tuna, Sushi Tacos, Takoyaki. Lunch ~$22, dinner ~$33."
+  },
+  {
+    "id": "r064",
+    "name": "Koizi Endless Hibachi & Sushi",
+    "address": "17012 Palm Pointe Dr, Tampa, FL 33647",
+    "coordinates": {
+      "latitude": 28.1573,
+      "longitude": -82.3567
+    },
+    "phone": "(813) 971-1919",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 14,
+    "priceDinner": 20,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "wednesday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "New Tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$",
+    "rating": 4.0,
+    "reviewCount": 312,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking",
+      "closed-tuesday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Best-value AYCE in New Tampa. Lunch $13.95, dinner $19.95, Sundays $14.95 all day. Closed Tuesdays."
+  },
+  {
+    "id": "r065",
+    "name": "Umami Endless Sushi & Hibachi",
+    "address": "3942 Tyrone Blvd N Ste D, Saint Petersburg, FL 33709",
+    "coordinates": {
+      "latitude": 27.8221,
+      "longitude": -82.7461
+    },
+    "phone": "(727) 800-2799",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 20,
+    "priceDinner": 29,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 83,
+    "neighborhood": "Tyrone",
+    "city": "Saint Petersburg",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "reviewCount": 267,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "St. Pete's go-to endless sushi + hibachi near Tyrone Square Mall. Lunch $19.95, dinner $28.95 (starts 3pm daily)."
+  },
+  {
+    "id": "r066",
+    "name": "Saki Endless Sushi Clearwater",
+    "address": "2643 Gulf to Bay Blvd Ste 1560, Clearwater, FL 33759",
+    "coordinates": {
+      "latitude": 27.968,
+      "longitude": -82.7336
+    },
+    "phone": "(727) 726-3937",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 17,
+    "priceDinner": 23,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:30",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:30",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "Clearwater",
+    "city": "Clearwater",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$",
+    "rating": 4.1,
+    "reviewCount": 289,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Saki's Clearwater location near Clearwater Mall. Endless sushi + hibachi. Lunch ~$17, dinner ~$23."
+  },
+  {
+    "id": "r067",
+    "name": "Saki Endless Sushi Palm Harbor",
+    "address": "35927 US Hwy 19 N Ste 1523, Palm Harbor, FL 34684",
+    "coordinates": {
+      "latitude": 28.0795,
+      "longitude": -82.7646
+    },
+    "phone": "(727) 351-5615",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 17,
+    "priceDinner": 22,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "22:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 81,
+    "neighborhood": "Palm Harbor",
+    "city": "Palm Harbor",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$",
+    "rating": 4.0,
+    "reviewCount": 198,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Northernmost Saki Endless location in Pinellas County. Lunch ~$17, dinner ~$22. Endless sushi + hibachi format."
+  },
+  {
+    "id": "r068",
+    "name": "Ginza Endless Sushi & Hibachi",
+    "address": "6417 E County Line Rd Ste 104, Tampa, FL 33647",
+    "coordinates": {
+      "latitude": 28.169,
+      "longitude": -82.344
+    },
+    "phone": "(813) 907-1688",
+    "website": null,
+    "reservationUrl": null,
+    "priceLunch": 13,
+    "priceDinner": 25,
+    "timeLimit": 90,
+    "menuCategories": [
+      "Sashimi",
+      "Nigiri",
+      "Specialty Rolls",
+      "Hot Dishes",
+      "Appetizers",
+      "Hibachi"
+    ],
+    "hasSashimi": true,
+    "hasNigiri": true,
+    "hasSpecialtyRolls": true,
+    "drinks": false,
+    "parking": true,
+    "accessibility": true,
+    "hours": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "tuesday": {
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:30",
+        "closed": false
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "22:00",
+        "closed": false
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00",
+        "closed": false
+      }
+    },
+    "holidayHours": {},
+    "photos": [],
+    "lastVerifiedDate": "2026-06-30",
+    "verificationSource": "Community report",
+    "communityConfidenceScore": 82,
+    "neighborhood": "New Tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "market": "Tampa",
+    "priceRange": "$",
+    "rating": 4.1,
+    "reviewCount": 223,
+    "tags": [
+      "hibachi",
+      "family-friendly",
+      "lunch-special",
+      "parking",
+      "closed-tuesday"
+    ],
+    "isVerifiedAYCE": true,
+    "description": "Best lunch deal in Tampa Bay at $12.95. 200+ item AYCE menu with endless sushi and hibachi. Closed Tuesdays."
+  }
+]

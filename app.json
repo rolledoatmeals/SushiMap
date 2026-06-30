@@ -1,25 +1,58 @@
 {
   "expo": {
     "name": "SushiMap",
-    "slug": "SushiMap",
+    "slug": "sushi-map",
     "version": "1.0.0",
+    "scheme": "sushimap",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sushimap.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FAFAF7",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundImage": "./assets/android-icon-background.png"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.sushimap.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F5EFE0",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-image",
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "SushiMap uses your location to show AYCE sushi restaurants near you."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SushiMap accesses your photos to add them to your Sushi Journal."
+        }
+      ],
+      ["expo-apple-authentication"]
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
